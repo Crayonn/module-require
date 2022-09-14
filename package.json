@@ -1,5 +1,5 @@
 {
-  "name": "module-require",
+  "name": "async-module-require",
   "version": "0.0.1",
   "description": "Load typescript or ecmascript from filepath in Node",
   "repository": "https://github.com/Crayonn/module-require",
