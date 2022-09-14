@@ -1,0 +1,38 @@
+{
+  "name": "module-require",
+  "version": "0.0.1",
+  "description": "Load typescript or ecmascript from filepath in Node",
+  "repository": "https://github.com/Crayonn/module-require",
+  "homepage": "https://github.com/Crayonn/module-require",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "keywords": [
+    "typesrcipt",
+    "node",
+    "require",
+    "js",
+    "javascript",
+    "ecmascript",
+    "swc",
+    "transform",
+    "file"
+  ],
+  "author": "Crayonn",
+  "license": "Apache License",
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.7",
+    "@types/node": "^18.6.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@swc/core": "^1.2.224",
+    "lodash.merge": "^4.6.2"
+  }
+}
