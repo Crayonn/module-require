@@ -4,8 +4,10 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -31,4 +33,5 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
         with:
-          tag-prefix:  'v'
+          tag-prefix: 'v'
+          rc-wording: 'RELEASE,alpha,PicX'
