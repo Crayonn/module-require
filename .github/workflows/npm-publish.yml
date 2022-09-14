@@ -31,7 +31,4 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-        with:
-          tag-prefix: 'v'
-          rc-wording: 'RELEASE,alpha,PicX'
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
