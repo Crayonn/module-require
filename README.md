@@ -3,13 +3,13 @@ Load typescript or ecmascript from filepath in Node
 ### Install
 
 ```
-npm install --save module-require
+npm install --save async-module-require
 ```
 
 ### Usage
 
 ```js
-const moduleRequire = require('module-require');
+const moduleRequire = require('async-module-require');
 
 (async () => {
     // path/file.ts
